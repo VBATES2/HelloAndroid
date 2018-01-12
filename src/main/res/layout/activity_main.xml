@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#222222"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imagine your future!"
+        android:textColor="#DAA520"
+        android:textSize="36sp"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:paddingBottom="2sp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/iudacity"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="5"
+        />
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:fontFamily="serif-monospace"
+            android:text=
+                "Udacity\n2465 Latham St\nMountain View, CA 94043\n650-555-5555\nwww.udacity.com"
+            android:textColor="#DAA520"
+            android:textSize="26sp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".75">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/iudacityf"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/iudacityi"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/iudacityt"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/iudacityg"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
